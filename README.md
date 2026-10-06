@@ -2039,7 +2039,7 @@ PresetThemes:Dropdown({
 		"Black Ice",
 		"Terminal Wave"
 	},
-	State = "Tokyo Night",
+	State = "Nocturne",
 	Callback = function(v)
 		local themes = {
 					['Tokyo Night'] = {
@@ -3089,7 +3089,7 @@ local WatermarkText = Library:Create('TextLabel', {
 	BackgroundTransparency = 1,
 	BorderSizePixel = 0,
 	BorderColor3 = Color3.new(0, 0, 0),
-	Text = '<font color="#0088ff">Skeet</font><font color="#ff0000">.red</font> | Beta | <font color="#ffffff">GAME:</font> <font color="#0088ff">Aftermath</font>',
+	Text = '<font color="#0088ff">Skeet</font><font color="#ff0000">.dec</font> | Beta | <font color="#ffffff">GAME:</font> <font color="#0088ff">Aftermath</font>',
 	TextColor3 = "FontColor",
 	RichText = true,
 	FontFace = Library.Font,
@@ -3106,7 +3106,7 @@ local WatermarkText = Library:Create('TextLabel', {
     BackgroundTransparency = 1,
     BorderSizePixel = 0,
     BorderColor3 = Color3.new(0, 0, 0),
-    Text = '<font color="#0088ff">Skeet</font><font color="#ff0000">.red</font>| Version 1',
+    Text = '<font color="#0088ff">Skeet</font><font color="#ff0000">.dev</font>',
     TextColor3 = "Accent",
     RichText = true,
     AutoButtonColor = false,
@@ -3122,7 +3122,7 @@ local WatermarkText = Library:Create('TextLabel', {
     BackgroundTransparency = 1,
     BorderSizePixel = 0,
     BorderColor3 = Color3.new(0, 0, 0),
-    Text = "👾<font color='#FFFF00'>.gg/B3a3FmpfGY</font>",
+    Text = "Beta v1",
     TextColor3 = Color3.new(1, 1, 1),
     FontFace = Library.Font,
     TextSize = 11,
